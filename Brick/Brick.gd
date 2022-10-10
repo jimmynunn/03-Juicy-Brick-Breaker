@@ -10,7 +10,7 @@ export var time_a = 0.8
 export var time_s = 1.2
 export var time_v = 1.5
 
-export var sway_amplitude = 3.0
+export var sway_amplitude = 1.0
 
 var colors = [
 	Color8(224,49,49)

@@ -1,7 +1,8 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Brick/Brick.gd" type="Script" id=1]
 [ext_resource path="res://Assets/bubble.png" type="Texture" id=2]
+[ext_resource path="res://New Assets/VIsuals/Enemy2.png" type="Texture" id=3]
 
 [sub_resource type="Curve" id=2]
 _data = [ Vector2( 0.00347423, 0.513514 ), 0.0, 0.0, 0, 0, Vector2( 0.510712, 1 ), 0.0, 0.0, 0, 0, Vector2( 1, 0 ), 0.0, 0.0, 0, 0 ]
@@ -107,5 +108,8 @@ margin_bottom = 15.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 3 )
 
 [node name="Tween" type="Tween" parent="."]
